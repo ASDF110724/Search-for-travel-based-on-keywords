@@ -16,11 +16,11 @@ def findDataBySQL():
 
     # sql 연결
     conn = pymysql.connect(
-        host="192.168.0.103",
-        user="user1",
-        password="u1234",
-        db="project01",
-        charset="utf8",
+        host="",
+        user="",
+        password="",
+        db="",
+        charset="",
     )
     # 커서 생성
     cur = conn.cursor()
@@ -53,11 +53,11 @@ def findKeyword():
     """
     # sql 연결
     conn = pymysql.connect(
-        host="192.168.0.103",
-        user="user1",
-        password="u1234",
-        db="project01",
-        charset="utf8",
+        host="",
+        user="",
+        password="",
+        db="",
+        charset="",
     )
 
     # 커서 생성
@@ -79,11 +79,11 @@ def insertKeywordBySQL(values):
     """
     # sql 연결
     conn = pymysql.connect(
-        host="192.168.0.103",
-        user="user1",
-        password="u1234",
-        db="project01",
-        charset="utf8",
+        host="",
+        user="",
+        password="",
+        db="",
+        charset="",
     )
 
     # 커서 생성
@@ -110,11 +110,11 @@ def getKeywordID(keyword):
     """
     # sql 연결
     conn = pymysql.connect(
-        host="192.168.0.103",
-        user="user1",
-        password="u1234",
-        db="project01",
-        charset="utf8",
+        host="",
+        user="",
+        password="",
+        db="",
+        charset="",
     )
 
     # 커서 생성
@@ -140,11 +140,11 @@ def inputNewID(placeID, keywordID):
     """
     # sql 연결
     conn = pymysql.connect(
-        host="192.168.0.103",
-        user="user1",
-        password="u1234",
-        db="project01",
-        charset="utf8",
+        host="",
+        user="",
+        password="",
+        db="",
+        charset="",
     )
 
     # 커서 생성

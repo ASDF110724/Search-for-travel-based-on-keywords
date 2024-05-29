@@ -14,11 +14,11 @@ def load_csv(filename):
 def input_place(csv_data):
 
     conn = pymysql.connect(
-        host="192.168.0.103",
-        user="user1",
-        password="u1234",
-        db="sql_testdb",
-        charset="utf8",
+        host="",
+        user="",
+        password="",
+        db="",
+        charset="",
     )
 
     cur = conn.cursor()
