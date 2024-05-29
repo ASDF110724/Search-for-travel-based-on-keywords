@@ -28,7 +28,8 @@ params = {
     "pageNo": "1",
     "MobileOS": "ETC",
     "MobileApp": "AppTest",
-    "serviceKey": "DuNAHD53YMihcAYk251OZibIu7IxjIwuoPP365VnntZyBrwmHQqRhdA3Ed%2BiLCH5oasIn9aZGKE7LcITX8mVeA%3D%3D",
+    # YOUR API KEY
+    "serviceKey": "APIKey",
     # 선택
     "_type": "json",
     "listYN": "Y",

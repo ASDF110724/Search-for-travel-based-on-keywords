@@ -13,7 +13,8 @@ contentId = '1095732'
 
 params = {
     # 필수
-    'serviceKey': 'DuNAHD53YMihcAYk251OZibIu7IxjIwuoPP365VnntZyBrwmHQqRhdA3Ed%2BiLCH5oasIn9aZGKE7LcITX8mVeA%3D%3D',
+    # YOUR API KEY
+    "serviceKey": "APIKey",
     'MobileOS':'ETC',
     'MobileApp':'AppTest',
     'contentId':contentId,          # 콘텐츠 ID
